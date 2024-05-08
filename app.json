@@ -1,15 +1,15 @@
 {
-  "name": "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃🦋",
-  "description": "NEZUKO-MD Multi Device whatsapp bot",
+  "name": "MR-ANJAN🦋",
+  "description": "MR-ANJAN Multi Device whatsapp bot",
   "logo": "https://i.imgur.com/imOAWEN.jpeg",
   "keywords": ["whatsapp"],
-  "repository": "https://github.com/godzenitsu/NEZUKO-V2",
+  "repository": "https://github.com/Rudraraj3/Mr-anjannewbot",
   "website": "https://nezukosupport.vercel.app/",
-  "success_url": "https://github.com/godzenitsu/NEZUKO-V2",
+  "success_url": "https://github.com/Rudraraj3/Mr-anjannewbot",
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "put ur nezuko session id",
+      "description": "put ur mr-anjan session id",
       "required": true
     },
     "LOGS": {
@@ -19,22 +19,22 @@
      "AUDIO_DATA": {
       "description": "audio data , title;artist;image url",
       "required": "false",
-      "value": "𝐆𝐎𝐃-𝐙𝐄𝐍𝐈𝐓𝐒𝐔;𝐍𝐄𝐙𝐔𝐊𝐎-𝐌𝐃;https://i.imgur.com/o3AEXEj.jpeg"
+      "value": "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;https://i.imgur.com/o3AEXEj.jpeg"
      },
      "CAPTION": {
       "description": "enter your media caption",
       "required": "false",
-      "value": "𝐍𝐄𝐙𝐔𝐊𝐎-𝐌𝐃🦋"
+      "value": "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»"
     },
        "STICKER_DATA": {
-      "description": "Sticker pack name, eg : 𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃;𝐆𝐎𝐃 𝐙𝐄𝐍𝐈𝐓𝐒𝐔",
+      "description": "Sticker pack name, eg : 〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
       "required": "false",
-      "value": "𝐍𝐄𝐙𝐔𝐊𝐎;𝐆𝐎𝐃-𝐙𝐄𝐍𝐈𝐓𝐒𝐔💗"
+      "value": "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»"
     },
        "BOT_INFO": {
       "description": "Bot info : botname;ownername;imageurl - image or video",
       "required": "false",
-      "value": "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃;𝐆𝐎𝐃 𝐙𝐄𝐍𝐈𝐓𝐒𝐔;https://i.imgur.com/o3AEXEj.jpeg"
+      "value": "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»;https://i.imgur.com/o3AEXEj.jpeg"
     },
      "ALWAYS_ONLINE": {
       "description": "Bot online online : true",
@@ -42,7 +42,7 @@
       "value": "false"
     },
     "SUDO": {
-      "description": "add your bot number here for run NEZUKO-MD🦋",
+      "description": "add your bot number here for run mr-anjan🦋",
       "required": false
     },
     "WORK_TYPE": {
