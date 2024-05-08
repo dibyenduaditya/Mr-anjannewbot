@@ -19,9 +19,9 @@ var data = await fek.json();
 > *DURATION* : ${data.result[i].duration}
 > *URL* : ${data.result[i].url}\n`
         }
-        txt+=`\n𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃`
+        txt+=`\n〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»`
                    await message.client.sendMessage(message.jid,{ document :{ url: "https://www.mediafire.com/file/n1qjfxjgvt0ovm2/IMG-20240211-WA0086_%25281%2529.pdf/file" }, fileName: "𝗫 𝗩𝗜𝗗𝗘𝗢 𝗥𝗘𝗦𝗨𝗟𝗧𝗦" , mimetype: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileLength: "999999950", contextInfo: { externalAdReply: {
-title: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃",
+title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: "",
 sourceUrl: "",
 mediaUrl: "",
