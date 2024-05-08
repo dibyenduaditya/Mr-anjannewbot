@@ -38,7 +38,7 @@
 </a>
 
   ### ᴛʜᴀɴᴋs ᴛᴏ
-- [〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»](https://github.com/rudraraj3)
+- [〆Mr-anjan👀🦋 ː͢»](https://github.com/rudraraj3)
 <br><br>
 
 
