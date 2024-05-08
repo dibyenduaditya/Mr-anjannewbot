@@ -278,7 +278,7 @@ menu += `\n╚┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄⛒`;
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
       newsletterJid: '120363239634100086@newsletter',
-      newsletterName: "𝐍𝐄𝐙𝐔𝐊𝐎 𝐌𝐃🦋",
+      newsletterName: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
       serverMessageId: -1
             }}, caption: (penu)}, {quoted: message })
     }
@@ -325,7 +325,7 @@ command(
       if (desc) menu += `\n│  Use: \`\`\`${desc}\`\`\``;
       menu += `\n│\n`;
     });
-    menu += `╰───────┈┫「 𝐍𝐄𝐙𝐔𝐊𝐎-𝐌𝐃-𝐁𝐎𝐓 」┣┈────♡`;
+    menu += `╰───────┈┫「 𝐌𝐫-𝐚𝐧𝐣𝐚𝐧-𝐌𝐃-𝐁𝐎𝐓 」┣┈────♡`;
     return await message.reply(message.jid, { text: (tiny(menu)) })
 })
 
@@ -457,7 +457,7 @@ command(
 	type: 'user'
 }, async (message, match) => {
 	match = match || message.reply_message.text
-	if (!match) return await message.reply('*_Need Text_!*\n *Example: setbio _Ezra-XD_*.')
+	if (!match) return await message.reply('*_Need Text_!*\n *Example: setbio _〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»_*.')
 	await message.client.updateProfileStatus(match)
 	await message.reply('*_Successfully bio updated_*')
 })
