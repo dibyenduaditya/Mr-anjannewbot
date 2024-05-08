@@ -33,13 +33,12 @@ command(
     },
     async (message, match, client) => {
         const start = new Date().getTime();
-      let { key } = await message.sendMessage(`*ᴩɪɴɢ ㋞*`);
+      let { key } = await message.sendMessage(`*_ᴛᴇꜱᴛɪɴɢ!_*`);
         const end = new Date().getTime();
 var speed = end - start;
  
 await new Promise(t => setTimeout(t,0))
-         await message.client.sendMessage(message.jid,{text:`*ᴩᴏɴɢ* ㋚
-${speed} *𝚖𝚜*` , edit: key});
+         await message.client.sendMessage(message.jid,{text:`_Rᴇꜱᴘᴏɴꜱᴇ:${speed} *𝚖𝚜*` , edit: key});
 })
 
 /* Copyright (C) 2022 X-Electra.
@@ -275,7 +274,7 @@ menu += `\n╚┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄⛒`;
       return await message.sendFromUrl(vd, {fileLength: "500000000", gifPlayback: true, contextInfo: {
       mentionedJid: [m.sender],
       forwardingScore: 999,
-      isForwarded: true,
+      isForwarded: false,
       forwardedNewsletterMessageInfo: {
       newsletterJid: '120363239634100086@newsletter',
       newsletterName: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
