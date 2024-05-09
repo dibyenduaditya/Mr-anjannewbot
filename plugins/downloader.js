@@ -24,8 +24,8 @@ sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐..
 mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
-renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }} }, {quoted: message })
+renderLargerThumbnail: true,
+thumbnailUrl: "https://i.imgur.com/JhMAWbB.jpeg" }} }, {quoted: message })
     }
     );
 
@@ -50,7 +50,7 @@ mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, caption: `*${result.title}*`}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/JhMAWbB.jpeg" }}, caption: `*${result.title}*`}, {quoted: message })
     });
 
 // Zeta-XD 
@@ -72,8 +72,8 @@ sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐..
 mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
-renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, }, {quoted: message })
+renderLargerThumbnail: true,
+thumbnailUrl: "https://i.imgur.com/JhMAWbB.jpeg" }}, }, {quoted: message })
     }
     );
 
@@ -95,7 +95,7 @@ mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, caption : (X.CAPTION)}, {quoted : message})
+thumbnailUrl: "https://i.imgur.com/JhMAWbB.jpeg" }}, caption : (X.CAPTION)}, {quoted : message})
 });
 
 
@@ -171,6 +171,6 @@ mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, caption: (X.CAPTION)}, {quoted: message})
+thumbnailUrl: "https://i.imgur.com/JhMAWbB.jpeg" }}, caption: (X.CAPTION)}, {quoted: message})
     }
     );
