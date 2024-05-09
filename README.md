@@ -34,7 +34,7 @@
 <br>
 
 
-* [`External PLUGINS`]()
+* [`External PLUGINS`](https://github.com/Mranjan101/Mr-anjan-plugins)
 </a>
 
   ### ᴛʜᴀɴᴋs ᴛᴏ
