@@ -33,12 +33,12 @@ command(
     },
     async (message, match, client) => {
         const start = new Date().getTime();
-      let { key } = await message.sendMessage(`*_ᴛᴇꜱᴛɪɴɢ!_*`);
+      let { key } = await message.sendMessage(`*❏_ᴛᴇꜱᴛɪɴɢ!_*`);
         const end = new Date().getTime();
 var speed = end - start;
  
 await new Promise(t => setTimeout(t,0))
-         await message.client.sendMessage(message.jid,{text:`_Rᴇꜱᴘᴏɴꜱᴇ:${speed} *𝚖𝚜*` , edit: key});
+         await message.client.sendMessage(message.jid,{text:`❏_Rᴇꜱᴘᴏɴꜱᴇ:${speed} *𝚖𝚜*` , edit: key});
 })
 
 /* Copyright (C) 2022 X-Electra.
@@ -227,7 +227,7 @@ Description: ${i.desc}\`\`\``);
         .split(",");
         let usern = message.pushName
         const readMore = String.fromCharCode(8206).repeat(4001);
-      let menu = `\n╔───────◍〔 ${BOT_INFO.split(";")[0]} 〕─────◍
+      let menu = `\n╔────◍〔 ${BOT_INFO.split(";")[0]} 〕──◍
     ╔──────────────◍
     ◍ *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
     ◍ *ᴜꜱᴇʀ*: ${usern}
@@ -259,12 +259,12 @@ Description: ${i.desc}\`\`\``);
       cmnd.sort();
       category.sort().forEach((cmmd) => {
         menu += `\n   ╔──────────────◍`;
-        menu += `\n   ➻  ❲ *${cmmd.toUpperCase()}* ❳`;
+        menu += `\n   ❏  ❲ *${cmmd.toUpperCase()}* ❳`;
         menu += `\n   ╚──────────────◍`
         menu += `\n   ╔──────────────◍`;
         let comad = cmnd.filter(({ type }) => type == cmmd);
         comad.forEach(({ cmd }) => {
-          menu += `\n   ◍  ${cmd.trim()}`;
+          menu += `\n   ❏  ${cmd.trim()}`;
         });
         menu += `\n   ╚──────────────◍`;
       });
