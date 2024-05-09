@@ -6,7 +6,7 @@ const X = require("../config");
 
 command(
     {
-        pattern: "song",
+        pattern: "play",
         fromMe: isPrivate,
         desc: "Song Downloader",
         type: "downloader",
@@ -20,12 +20,12 @@ const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
 await message.client.sendMessage(message.jid, { audio :aswinsparky,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: "𝙎𝙤𝙣𝙜 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
-sourceUrl: "",
-mediaUrl: "",
+sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐...𝑰 𝑨𝒎 𝒀𝒐𝒖𝒓 𝑩𝒊𝒈 𝑭𝒂𝒏 ❤️✨",
+mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }} }, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }} }, {quoted: message })
     }
     );
 
@@ -45,12 +45,12 @@ await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.ti
 return await message.sendFromUrl(result.url, {contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: "𝙑𝙞𝙙𝙚𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
-sourceUrl: "",
-mediaUrl: "",
+sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐...𝑰 𝑨𝒎 𝒀𝒐𝒖𝒓 𝑩𝒊𝒈 𝑭𝒂𝒏 ❤️✨",
+mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }}, caption: `*${result.title}*`}, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, caption: `*${result.title}*`}, {quoted: message })
     });
 
 // Zeta-XD 
@@ -68,12 +68,12 @@ command(
 await message.client.sendMessage(message.jid, { audio :{url: dat },  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: "𝙎𝙤𝙣𝙜 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
-sourceUrl: "",
-mediaUrl: "",
+sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐...𝑰 𝑨𝒎 𝒀𝒐𝒖𝒓 𝑩𝒊𝒈 𝑭𝒂𝒏 ❤️✨",
+mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }}, }, {quoted: message })
+thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, }, {quoted: message })
     }
     );
 
@@ -90,12 +90,12 @@ command(
 await message.sendFromUrl(`https://api-brunosobrino.onrender.com/api/v1/ytmp4?url=${match}`, {contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: "𝙑𝙞𝙙𝙚𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
-sourceUrl: "",
-mediaUrl: "",
+sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐...𝑰 𝑨𝒎 𝒀𝒐𝒖𝒓 𝑩𝒊𝒈 𝑭𝒂𝒏 ❤️✨",
+mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }}, caption : (X.CAPTION)}, {quoted : message})
+thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, caption : (X.CAPTION)}, {quoted : message})
 });
 
 
@@ -166,11 +166,11 @@ var {result} = await getJson(`https://api.lokiser.xyz/api/pinterestdl?link=${mat
 await message.sendFromUrl(result.LokiXer.url,{ contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: `𝗦𝗘𝗫𝗘𝗦𝗦🌼`,
-sourceUrl: "",
-mediaUrl: "",
+sourceUrl: "https://wa.me/919883457657?text=𝑯𝒆𝒍𝒍𝒐  𝑩𝒓𝒐...𝑰 𝑨𝒎 𝒀𝒐𝒖𝒓 𝑩𝒊𝒈 𝑭𝒂𝒏 ❤️✨",
+mediaUrl: "https://chat.whatsapp.com/HBf3zvaGyRaEfMZlKgUSPV",
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: false,
-thumbnailUrl: "https://i.imgur.com/Q49D1NN.mp4" }}, caption: (X.CAPTION)}, {quoted: message})
+thumbnailUrl: "https://i.imgur.com/RAnEVP9.png" }}, caption: (X.CAPTION)}, {quoted: message})
     }
     );
