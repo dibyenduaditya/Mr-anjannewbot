@@ -2,7 +2,7 @@ const { command, isPrivate } = require("../lib/");
 const { toPTT } = require("../lib/media");
 command(
   {
-    pattern: "wave",
+    pattern: "wame",
     fromMe: isPrivate,
     desc: "converts video/audio/voice to voice",
     type: "converter",
