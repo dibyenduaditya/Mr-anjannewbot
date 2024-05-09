@@ -6,7 +6,7 @@ const X = require("../config");
 
 command(
     {
-        pattern: "play",
+        pattern: "Play",
         fromMe: isPrivate,
         desc: "Song Downloader",
         type: "downloader",
