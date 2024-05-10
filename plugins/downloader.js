@@ -15,7 +15,7 @@ command(
         if (!match) return await message.sendMessage("*_Need Song Name Or Url_*");
 var res = await axios.get(`https://api-viper-x.koyeb.app/api/song?name=${match}`)
 var song = res.data
-await message.client.sendMessage(message.jid, { text: `*_Downloading ${song.data.title}_*` },{ quoted: message})
+await message.client.sendMessage(message.jid, { text: `*_𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃𝚵𝐃 ${song.data.title}_*` },{ quoted: message})
 const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
 await message.client.sendMessage(message.jid, { audio :aswinsparky,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
@@ -41,7 +41,7 @@ command(
     async (message, match) => {
         if (!match) return await message.sendMessage("*_Need a Video Name_*");
 let {result} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/yt_video?search=${match}`);
-await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.title}_*` },{ quoted: message})
+await message.client.sendMessage(message.jid, { text: `*_𝐃𝚯𝐖𝚴𝐋𝚯𝚫𝐃𝚵𝐃 ${result.title}_*` },{ quoted: message})
 return await message.sendFromUrl(result.url, {contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
 body: "𝙑𝙞𝙙𝙚𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙚𝙙 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮",
