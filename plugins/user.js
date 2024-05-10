@@ -227,16 +227,16 @@ Description: ${i.desc}\`\`\``);
         .split(",");
         let usern = message.pushName
         const readMore = String.fromCharCode(8206).repeat(4001);
-      let menu = `\n╔╤╤╤᭕〔 ${BOT_INFO.split(";")[0]}〕╤╤╤╤╤᭕
+      let menu = `\n╔╤╤╤᭕〔 ${BOT_INFO.split(";")[0]} 〕╤╤╤╤╤᭕
     ╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
-    ༈  *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
-    ༈ *ᴜꜱᴇʀ*: ${usern}
-    ༈ *ᴅᴀᴛᴇ*: ${date}
-    ༈ *ᴛɪᴍᴇ*: ${time}
-    ༈ *ᴄᴏᴍᴍᴀɴᴅꜱ*: ${plugins.commands.length}
-    ༈ *ᴍᴏᴅᴇ*: ${config.WORK_TYPE}
-    ༈ *ᴩʀᴇꜰɪx*: ${config.HANDLERS}
-    ༈ *VERSION*: ${require("../package.json").version}
+    ╠»  *ᴏᴡɴᴇʀ*: ${BOT_INFO.split(";")[1]}
+    ╠» *ᴜꜱᴇʀ*: ${usern}
+    ╠» *ᴅᴀᴛᴇ*: ${date}
+    ╠» *ᴛɪᴍᴇ*: ${time}
+    ╠» *ᴄᴏᴍᴍᴀɴᴅꜱ*: ${plugins.commands.length}
+    ╠» *ᴍᴏᴅᴇ*: ${config.WORK_TYPE}
+    ╠» *ᴩʀᴇꜰɪx*: ${config.HANDLERS}
+    ╠» *VERSION*: ${require("../package.json").version}
     ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕
 ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕\n ${readMore}\n╔╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕`;
 
@@ -268,7 +268,7 @@ Description: ${i.desc}\`\`\``);
         });
         menu += `\n   ╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕`;
       });
-menu += `\n╚╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤᭕`;
+menu += `\n©𝚫𝚴𝐉𝚫𝚴᭕`;
       let penu = tiny(menu)
       let vd = BOT_INFO.split(";")[2];
       return await message.sendFromUrl(vd, {fileLength: "500000000", gifPlayback: true, contextInfo: {
