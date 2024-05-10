@@ -73,8 +73,8 @@ async function Abhiy() {
   conn.ev.on("connection.update", async (s) => {
     const { connection, lastDisconnect } = s;
     if (connection === "connecting") {
-      console.log("nezuko");
-      console.log("𝐑𝐄𝐀𝐃𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃🌻");
+      console.log("anjan");
+      console.log("𝐑𝐄𝐀𝐃𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃🙂");
     }
 
     if (
