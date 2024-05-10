@@ -5,7 +5,7 @@ const axios = require("axios");
 const X = require("../config");
 
 command(
-    {
+        {
         pattern: "Play",
         fromMe: isPrivate,
         desc: "Song Downloader",
@@ -15,7 +15,7 @@ command(
         if (!match) return await message.sendMessage("*_Need Song Name Or Url_*");
 var res = await axios.get(`https://api-viper-x.koyeb.app/api/song?name=${match}`)
 var song = res.data
-await message.client.sendMessage(message.jid, { quoted: message})
+await message.client.sendMessage(message.jid, { text: `*_Downloading ${song.data.title}_*` },{ quoted: message})
 const aswinsparky = await (await fetch(`${song.data.downloadUrl}`)).buffer()
 await message.client.sendMessage(message.jid, { audio :aswinsparky,  mimetype:"audio/mpeg", contextInfo: { externalAdReply: {
 title: "〆͎𝐌𝐫-𝐚𝐧𝐣𝐚𝐧👀🦋 ː͢»",
