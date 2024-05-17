@@ -4,7 +4,7 @@
   "logo": "https://i.imgur.com/tzO1hlI.jpeg",
   "keywords": ["whatsapp"],
   "repository": "https://github.com/Rudraraj3/Mr-anjannewbot",
-  "website": "https://nezukosupport.vercel.app/",
+  "website": "https://anjansupport.vercel.app/",
   "success_url": "https://github.com/Rudraraj3/Mr-anjannewbot",
   "stack": "container",
   "env": {
